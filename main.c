@@ -18,8 +18,10 @@ int main()
         case '+':
                     printf("sum of numbers is %d\n",num1+num2);
                     break;
-					
-					
+	case '*':
+                    printf("sum of numbers is %d\n",num1*num2);
+                    break;
+
         default :
                     printf("invalid\n");
                     break;
