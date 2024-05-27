@@ -18,8 +18,17 @@ int main()
         case '+':
                     printf("sum of numbers is %d\n",num1+num2);
                     break;
-	case '*':
-                    printf("sum of numbers is %d\n",num1*num2);
+
+        case '-':
+                    printf("diffrence of numbers is %d\n",num2-num1);
+                    break;
+
+        case '*':
+                    printf("product of numbers is %d\n",num1*num2);
+                    break;
+
+        case '/':
+                    printf("division of numbers is %d\n",num2/num1);
                     break;
 
         default :
@@ -28,4 +37,3 @@ int main()
    }
     return 0;
 }
-
