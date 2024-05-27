@@ -15,6 +15,7 @@ int main()
 
    switch(oper)
    {
+
         case '+':
                     printf("sum of numbers is %d\n",num1+num2);
                     break;
@@ -34,6 +35,9 @@ int main()
         default :
                     printf("invalid\n");
                     break;
+
    }
+
     return 0;
+
 }
