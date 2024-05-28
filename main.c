@@ -35,7 +35,6 @@ int main()
         default :
                     printf("invalid\n");
                     break;
-
    }
 
     return 0;
